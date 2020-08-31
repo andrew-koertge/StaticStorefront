@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-  
+    
     <header id="header">
         <img src="images/computer.jpg" width="220px" height="150px">
         <h1>BYOC - Build Your Own Computer!!</h1>
@@ -27,14 +27,14 @@
         <nav id="sidenav">
             <h2>Select Your Parts</h2>
             <ul>
-                <li>CPU/Processor</li>
-                <li>Motherboard</li>
-                <li>Memory/RAM</li>
-                <li>Video Card/GPU</li>
-                <li>Case</li>
-                <li>Power Supply</li>
-                <li>Monitors</li>
-                <li>Peripherals/Accessories</li>
+                <li><a href="#">CPU/Processor</a></li>
+                <li><a href="#">Motherboard</a></li>
+                <li><a href="#">Memory/RAM</a></li>
+                <li><a href="#">Video Card/GPU</a></li>
+                <li><a href="#">Case</a></li>
+                <li><a href="#">Power Supply</a></li>
+                <li><a href="#">Monitors</a></li>
+                <li><a href="#">Peripherals/Accessories</a></li>
             </ul>
         </nav>
     </section>
@@ -44,7 +44,74 @@
             
         </div>
         <!--image slideshow-->
+        <div class="slideshow-container">
 
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 8</div>
+              <img src="images/cpu.jpg" style="width:100%">
+              <div class="text">CPU/Processor</div>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 8</div>
+              <img src="images/motherboard.jpg" style="width:100%">
+              <div class="text">Motherboard</div>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 8</div>
+              <img src="images/ram.jpg" style="width:100%">
+              <div class="text">RAM</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 8</div>
+                <img src="images/videocard.jpg" style="width:100%">
+                <div class="text">Graphics Card</div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">5 / 8</div>
+                <img src="images/case.jpg" style="width:100%">
+                <div class="text">Case</div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">6 / 8</div>
+                <img src="images/powersupply.jpg" style="width:100%">
+                <div class="text">Power Supply</div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">7 / 8</div>
+                <img src="images/monitor.jpg" style="width:100%">
+                <div class="text">Monitor</div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">8 / 8</div>
+                <img src="images/peripherals.png" style="width:100%">
+                <div class="text">Peripherals</div>
+              </div>
+          
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+          
+          <!-- The dots/circles -->
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
+          </div>
         <!--descriptive text boxes-->
     </section>
     <footer id="footer">
